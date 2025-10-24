@@ -1,0 +1,8 @@
+public class Ex{
+	public static void main(String[] args){
+		String input = "Mcet";
+		for(int i = 0 ; i< input.length() ; i++){
+			System.out.print(input[i]^0);
+		}		
+	}
+}
